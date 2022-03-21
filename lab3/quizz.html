@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <style>
+        img {
+            border: 3px solid rgb(86, 86, 87);
+        }
+
+        h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 70px;
+        }
+
+        h3 {
+            font-family: 'Courier New';
+            font-size: 25px;
+        }
+
+        h4 {
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+
+        a {
+            font-family: 'Courier New';
+            font-size: 12px;
+        }
+
+        p {
+            font-family: 'Courier New';
+            font-size: 14px;
+            margin: 35px;
+            text-indent: 30px;
+        }
+
+        ul {
+            list-style: inside;
+            font-family: 'Courier New';
+        }
+
+        hr {
+            border: 1px dotted rgb(0, 0, 0);
+        }
+
+        form {
+            font-family: 'Courier New';
+            font-size: 15px;
+            margin: 35px;
+            box-sizing: border-box;
+        }
+
+        input[type=text],
+        input[type=email] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        select {
+            width: 150px;
+            padding: 12px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit],
+        input[type=reset] {
+            background-color: #729bf1;
+            border: grey;
+            color: black;
+            padding: 16px 32px;
+            text-decoration: black;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        textarea {
+            resize: disable;
+            width: 90%;
+            height: 150px;
+            padding: 12px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    </style>
+
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rui Rodrigues" />
+    <meta name="keywords" content="Singapore Tour Travel" />
+    <meta name="description" content="Website com algumas curiosidades e informaçoes acerca da cidade de Singapore" />
+
+    <link rel="shortcut icon" type="images/x-icon" href="images/icon.ico" />
+    <title>A Tour in Singapore</title>
+</head>
+
+<body>
+
+
+    <body style="background-color:powderblue">
+
+        <center>
+            <h1> &#129409; Singapore &#127751; </h1>
+            <img src="images/singapore.jpg">
+            <br>
+            <a href="index.html"><b>Introdução</b> </a> | <a href="local.html">Localização </a> | <a href="multimedia.html">Multimédia </a> | <a href="info.html">Informações </a> | <a href="quizz.html">Quizz </a> | <a href="comentarios.html">Comentários </a>            | <a href="../index.html">Home </a>
+
+
+            <h3>Quizz</h3>
+            <hr>
+            <br><br>
+        </center>
+
+        <form action="mailto:joaoferre195@gmail.com" method="post" name="Form PW">
+            <fieldset>
+                <legend><span style="font-size: 180%;"><i><u><b>Identificação:</b></u></i></span></legend>
+                <label>
+                    <span style="font-size: 120%;">Insira o seu nome:<span style="color: red">*</span> </span> <input type="text" name="nome"
+                    placeholder="O se nome..." autocomplete="off" maxlength="20" autofocus required><br>
+            </label>
+
+                <label>
+                    <span style="font-size: 120%;">Insira o seu apelido:<span style="color: red">*</span></span> <input type="text" name="apelido"
+                    placeholder="O seu apelido..." autocomplete="off" maxlength="20" required><br>
+            </label>
+
+                <label>
+                    <span style="font-size: 120%;">Insira o seu email:<span style="color: red">*</span></span><input type="email" name="email" placeholder="Insira um email válido..." autocomplete="off" required><br>
+            </label>
+
+                <label>
+                <span style="font-size: 120%;">Insira o seu telefone:</span>
+                <input type="tel"  name="telefone" placeholder="Ex: 999-999-999" size="11" maxlength="11" autocomplete="off" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"> <small>(Opcional)</small><br><br>
+        </label>
+            </fieldset>
+
+            <br><br>
+
+
+            <fieldset>
+                <legend><span style="font-size: 180%;"><i><u><b>Quizz</b></u></i></span></legend>
+
+                <!--Pergunta 1 -->
+                <br>
+                <label for="q1"><span style="font-size: 120%;">1.A que país pertence a cidade de Singapore ? <span style="color: red">*</span></span></label>
+                <input type="text" id="q1" name="question1" autocomplete="off" maxlength="30" required placeholder="Insira um país até 30 caracteres ..."><br><br>
+                <hr><br><br>
+
+                <!--Pergunta 2 -->
+                <label for="q2"><span style="font-size: 120%;">2.O que significa "Singapore" na linguagem Malaia?<span style="color: red">*</span> </span></label><br><br>
+                <input type="radio" id="Jungle City" name="question2" required value="Jungle City">
+                <label for="Jungle City">Jungle City</label>
+                <input type="radio" id="City of Ships" name="question2" required value="City of Ships">
+                <label for="City of Ships">City of Ships</label>
+                <input type="radio" id="Lion City" name="question2" required value="Lion City">
+                <label for="Lion City">Lion City</label>
+                <input type="radio" id="City of Islands" name="question2" required value="City of Islands">
+                <label for="City of Islands">City of Islands</label><br><br>
+                <hr><br><br>
+
+                <!--Pergunta 3 -->
+                <label for="q3"><span style="font-size: 120%;">3.Quais as 4 linguas mais faladas em Singapore? <span style="color: red">*</span></span></label>
+                <br><br>
+                <input type="checkbox" id="language1" name="language1" value="English" required>
+                <label for="vehicle1"> English              </label>
+                <input type="checkbox" id="language2" name="language2" value="Malay" required>
+                <label for="vehicle2"> Malay                </label>
+                <input type="checkbox" id="language3" name="language3" value="Mandarin" required>
+                <label for="vehicle3"> Mandarin                  </label>
+                <input type="checkbox" id="language4" name="language4" value="Tamil" required>
+                <label for="vehicle3"> Tamil                </label><br>
+
+                <input type="checkbox" id="language5" name="language5" value="Bengali" required>
+                <label for="vehicle3"> Bengali                </label>
+                <input type="checkbox" id="language6" name="language6" value="Hindi" required>
+                <label for="vehicle3"> Hindi                </label>
+                <input type="checkbox" id="language7" name="language7" value="Portuguese" required>
+                <label for="vehicle3"> Portuguese                </label>
+                <input type="checkbox" id="language8" name="language8" value="French " required>
+                <label for="vehicle3"> French                </label><br><br>
+                <hr><br><br>
+
+
+                <!--Pergunta 4 -->
+
+                <label for="datemin"><span style="font-size: 120%;">4.Quando foi fundada Singapore como colónia Britânica?<span style="color: red">*</span></span></label>
+                <input type="date" id="year" name="year" min="1980-01-02" max="1999-12-30" required><br><br>
+                <hr><br><br>
+
+
+                <!--Pergunta 5 -->
+                <label for="ilhas"><span style="font-size: 120%;">5.Quantas ilhas fazem parte do país de Singapore?<span style="color: red">*</span></span> </label>
+
+                <input type="range" id=ilhas name="numilhas" min="0" max="100" value="0" required oninput="result.value=parseInt(ilhas.value)">
+                <output name="result" for="numilhas"> 0 </output> <small>Ilhas</small> <br><br>
+                <hr><br><br>
+
+
+                <!--Pergunta 6 -->
+
+                <label for="ilhas"><span style="font-size: 120%;">6.Quais são as cores da bandeira de Singapore?<span style="color: red">*</span></span> </label>
+                <input type="color" id="color1" name="color2" value="#000000" required>
+                <input type="color" id="color2" name="color2" value="#000000" required> <small>click to choose</small> <br><br>
+                <hr><br><br>
+
+                <!--Pergunta 7-->
+                <label for="horas"><span style="font-size: 120%;">7.Quantas horas são a mais em Singapore relativamente ao fuso horário <a href="https://pt.wikipedia.org/wiki/Tempo_Universal_Coordenado" target="_blank"> UTC</a>?<span style="color: red">*</span></span> </label>                +
+                <input type="number" id="horas" name="horas" min="0" max="10" value="0" required step="0.5"> <small>max:10</small><br><br>
+                <hr><br><br>
+
+
+                <!--Pergunta 8 -->
+                <label for="jinn"><span style="font-size: 120%;">8.Em Singapore conduz-se de que lado?<span style="color: red">*</span></span> </label><br><br>
+                <input type="radio" id="conduzEsq" name="conduz" value="Esquerdo" required>
+                <label for="conduzEsq">Esquerdo</label>
+                <input type="radio" id="conduzDrt" name="conduz" value="Direito" required>
+                <label for="conduzDrt">Direito</label><br><br>
+                <hr><br><br>
+
+
+
+                <!--Pergunta 9-->
+                <label for="jinn"><span style="font-size: 120%;">9.O jinn que roubava o pescador na lenda de "Badang" era de que elemento?<span style="color: red">*</span></span> </label>
+
+
+                <input type="radio" name='earth' id="thing1" required>
+                <img src="images/earth1.png" alt="earth">
+                <input type="radio" name='water' id="thing2" required>
+                <img src="images/water1.png" alt="water">
+                <input type="radio" name='fire' id="thing3" required>
+                <img src="images/fire1.png" alt="fire">
+                <input type="radio" name='air' id="thing4" required>
+                <img src="images/air1.png" alt="air">
+
+
+                <center>
+                    <br><br>
+                    <hr><br><br>
+                    <input type="submit" value="Submit All" title="Submit Answers" alt="Submit">
+                    <input type="reset" value="Reset All" title="Reset Fields">
+                    <br><br>
+                </center>
+
+
+
+            </fieldset>
+            <br>
+        </form>
+
+
+        <form action="mailto:joaoferre195@gmail.com" method="post" name="Sugestões Quizz">
+            <fieldset>
+
+                <legend><span style="font-size: 180%;"><i><u><b>Contribuições</b></u></i></span></legend>
+
+                <label>
+                    <span style="font-size: 120%;">Gostou do quizz</span>
+                <select name="avaliação" value="N/A">
+                    <option value="N/A">N/A</option>
+                    <option value="Muito">Muito</option>
+                    <option value="Mais ou menos">Mais ou menos</option>
+                    <option value="Péssimo">Péssimo</option>
+                </select><br><br>
+
+               <fieldset>
+                <label> <span style="font-size: 120%;">Caso já tenha visitado Singapore e tem uma história que gostaria de partilhar pode a deixar aqui:</span> <br>
+                    <center>
+                    <textarea name="sugestões" rows="20" cols="50" placeholder="Escreva aqui a sua história..."></textarea><br>
+                    </center>
+                </label>
+                <br><br>
+
+                <label>
+                    <span style="font-size: 80%;">Data de Visita:</span>
+                    <input type="date" id="year" name="year"  width="40px" max="2021-12-31" ><br>
+                    </label>
+
+                <label>
+                    <span style="font-size: 80%;">Autor:</span> <input type="text" name="nome"
+                    placeholder="O seu nome..." autocomplete="off" maxlength="20"  >
+                </label>
+
+                <br><br>
+
+
+
+
+                <label>
+                    <center>
+                        <span style="font-size: 120%;">Se quiser adicionar alguma fotografia pode as deixar aqui:</span><br><br>
+                    <input type="file" id="files" name="files" multiple><br><br>
+                    </center>
+                </label>
+
+
+                <center>
+                    <br><br><br><br>
+                    <label> <span style="font-size: 120%;">Enviar</span> <br>
+                    <input type="image" src="images/submit-icon-.jpg" title="Submit Answers" alt="Submit" width="48" height="48">
+                </center>
+
+            </fieldset>
+
+            </fieldset>
+        </form>
+
+        <hr>
+        <center>
+            <svg width="800" height="300">
+
+            <g  path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />>
+                <a href="index.html">
+                    <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Special Elite" font-size="27" id="svg_1" y="113" x="268" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Introdução
+                      </text>
+                </a>
+
+                <a href="local.html">
+                    <text transform="rotate(-5 420.03125000000017,71.50000000000018) " font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Quicksand'" font-size="31" id="svg_3" y="83" x="332" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Localização
+
+              </text>
+              </a>
+
+              <a href="multimedia.html">
+                <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Rounded Mplus 1c'" font-size="25" id="svg_4" y="108" x="428" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Multimédia
+                </text>
+            </a>
+
+            <a href="info.html">
+                <text font-style="normal" font-weight="normal" transform="rotate(34 548.984375,67.49999999999997) " xml:space="preserve" text-anchor="start" font-family="'Rounded Mplus 1c Bold'" font-size="18" id="svg_5" y="73.5" x="504" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Informações
+                </text>
+            </a>
+
+            <a href="comentarios.html">
+                <text font-style="normal" font-weight="normal" transform="rotate(-12 332.60937500000006,56.00000000000005) " xml:space="preserve" text-anchor="start" font-family="'Sacramento'" font-size="20" id="svg_2" y="60" x="290" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Comentarios
+                </text>
+            </a>
+
+            <a href="quizz.html">
+                <text font-style="normal" font-weight="normal" transform="rotate(-60 259.890625,78.5) " xml:space="preserve" text-anchor="start" font-family="'UnifrakturMaguntia'" font-size="24" id="svg_6" y="85" x="233" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Quizz
+                </text>
+            </a>
+        </g>
+        </svg>
+        </center>
+
+
+    </body>
+
+</html>

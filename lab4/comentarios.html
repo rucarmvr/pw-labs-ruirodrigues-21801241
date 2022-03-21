@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <style>
+        table {
+            width: 100%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+
+
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rui Rodrigues" />
+    <meta name="keywords" content="Singapore Tour Travel" />
+    <meta name="description" content="Website com algumas curiosidades e informaçoes acerca da cidade de Singapore" />
+
+    <link rel="shortcut icon" type="images/x-icon" href="images/icon.ico" />
+    <title>A Tour in Singapore</title>
+</head>
+
+<body>
+
+
+
+
+    <header>
+
+        <h1> &#129409; Singapore &#127751; </h1>
+        <figure>
+            <img src="images/singapore.jpg">
+            <details>
+                <summary>Merlion Park <b><a href="https://www.visitsingapore.com/see-do-singapore/recreation-leisure/viewpoints/merlion-park/" target="_blank">[1]</a></b></summary>
+                <p>O Merlion Park é um marco de Singapura e uma grande atração turística. O Merlion é uma criatura mítica com cabeça de leão e corpo de peixe, amplamente utilizada como mascote e personificação nacional de Singapura.</p>
+            </details>
+        </figure>
+        <br>
+    </header>
+
+    <nav id='menu'>
+        <!-- NAVIGATION MENU-->
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+            <li><a href='index.html'>Introdução</a></li>
+            <li><a href='local.html'>Localização</a></li>
+            <li><a href='multimedia.html'>Multimédia</a></li>
+            <li><a href='info.html'>Informações</a></li>
+            <li><a href='quizz.html'>Quizz</a></li>
+            <li><a href='comentarios.html'>Comentários</a></li>
+            <li><a href='html5-css.html'>HTML5</a></li>
+            <li><a href='../index.html'>Home</a></li>
+        </ul>
+    </nav>
+
+    <main id="comentarios">
+
+        <section>
+            <!--COMENTÁRIOS FORMS-->
+            <center>
+                <h3>Comentários</h3>
+                <hr>
+                <br><br>
+                <form action="mailto:exemple@gmail.com" method="post" name="Form PW">
+
+                    <fieldset>
+                        <legend><span style="font-size: 180%;"><i><u><b>Sugestões:</b></u></i></span></legend>
+                        <label>
+                                <span style="font-size: 120%;">É a primeira vez que visitou  website ?</span> <br>
+                                <input type="radio" name="visited" value ="sim" required> Sim<br>
+                                <input type="radio" name="visited" value="nao" required> Não
+                            </label>
+
+                        <br><br>
+                        <hr><br>
+
+                        <label>
+                                <span style="font-size: 120%;">Qual a principal razão de visitar este Website?</span> <br>
+                                <textarea name="razões" rows="20" cols="50" value="none" placeholder="Escreva aqui... "></textarea><br>
+                            </label>
+
+                        <br><br>
+                        <hr><br>
+
+                        <label>
+                                <span style="font-size: 120%;">Encontrou o que procurava ?:</span><br>
+                                <input type="radio" name="needed" value = "Tudo"required> Sim, tudo.<br>
+                                <input type="radio" name="needed" required value="Some"> Sim, algumas coisas.<br>
+                                <input type="radio" name="needed" required value ="Nao"> Não, nada.<br>
+                            </label>
+
+                        <br><br>
+                        <hr><br>
+
+                        <label>
+                                <span style="font-size: 120%;">Se não encontrou o que procurava, por favor indique que informação procurava:</span><br>
+                                <textarea name="searchedInfo" rows="20" cols="50" value="none" placeholder="Escreva aqui... "></textarea><br>
+                            </label>
+
+                        <br><br>
+                        <hr><br>
+
+                        <label>
+                                <span style="font-size: 120%;">O quão fácil foi encontrar a informação no site?</span>
+                                <input type="range" name="facilidade" min="0" max="10" value="0" required oninput="result.value=parseInt(facilidade.value)">
+                                <output name="result" for="facilidade"> 0 </output>
+                            </label>
+
+                        <br><br>
+                        <hr><br><br>
+
+                        <label for="q3"><span style="font-size: 120%;">Que tipo de contúdos gostaria de ver no site?</span></label>
+                        <br><br>
+                        <label>
+                                <input type="checkbox" name="conteudoFalta" value="Videos" > Videos
+                                <input type="checkbox" name="conteudoFalta" value="Fotografias" > Fotografias
+                                <input type="checkbox" name="conteudoFalta" value="Informações Gerais" > Informações Gerais
+                                <input type="checkbox" name="conteudoFalta" value="Guias de Visita" > Guias de Visita
+                                <input type="checkbox" name="conteudoFalta" value="Testemunhos" > Testemunhos
+                            </label>
+
+                        <br><br>
+                        <hr><br><br>
+
+                        <table>
+                            <caption><span style="font-size: 120%;"><b><u>Apreciação Geral do Site</u></b></span></caption>
+
+                            <tr>
+                                <th></th>
+                                <th>Abaixo das Expectactivas</th>
+                                <th>De encontro com as Expectactivas</th>
+                                <th>Acima das Expectactivas</th>
+                            </tr>
+                            <tr>
+                                <td>Profissional</td>
+
+                                <td align="center"><input type="radio" value="abaixo" required name="professional"></td>
+                                <td align="center"><input type="radio" value="igual" required name="professional"></td>
+                                <td align="center"><input type="radio" value="acima" required name="professional"></td>
+                            </tr>
+                            <tr>
+                                <td>Informativo</td>
+
+                                <td align="center"><input type="radio" value="abaixo" required name="informativo"></td>
+                                <td align="center"><input type="radio" value="igual" required name="informativo"></td>
+                                <td align="center"><input type="radio" value="acima" required name="informativo"></td>
+
+                            </tr>
+                            <tr>
+                                <td>Apelativo</td>
+
+                                <td align="center"><input type="radio" value="abaixo" required name="apelativo"></td>
+                                <td align="center"><input type="radio" value="igual" required name="apelativo"></td>
+                                <td align="center"><input type="radio" value="acima" required name="apelativo"></td>
+                            </tr>
+
+                        </table>
+                        <br><br>
+                        <hr><br><br>
+
+                        <label>
+                                <span style="font-size: 120%;">Voltaria a visitar o site?:</span><br>
+                                <input type="radio" name="revisit" value = "muito provavel"required> Muito Provável.<br>
+                                <input type="radio" name="revisit" required value="provavel"> Provável.<br>
+                                <input type="radio" name="revisit" required value ="pouco provavel"> Pouco Provável.<br>
+                                <input type="radio" name="revisit" required value ="impovavel"> Improvável.<br>
+                            </label>
+
+                        <br><br>
+                        <hr><br>
+
+                        <label> <span style="font-size: 120%;">Deixe aqui sugestões que ache que iriam beneficiar o website:</span> <br>
+                                <center>
+                                    <textarea name="sugestões" rows="20" cols="50" placeholder="Escreva aqui a sua sugestão..."></textarea><br>
+                                </center>
+                            </label>
+
+                        <br><br>
+
+                        <label>
+                                <center>
+                                    <span style="font-size: 120%;">Se preferir submeta as sugestões aqui em ficheiros.</span><br><br>
+                                    <input type="file" id="files" name="files" multiple><br><br>
+                                </center>
+                            </label>
+
+                        <!-- HIDDEN-->
+
+                        <input type="hidden" name="HiddenTag" value="Este review corresponde a uma sugestões relativas ao laboratório 4.">
+
+                        <center>
+                            <br><br>
+                            <hr><br><br>
+                            <input type="submit" value="Submit All" title="Submit Answers" alt="Submit all">
+                            <input type="reset" value="Reset All" title="Reset Fields">
+                            <br><br>
+                        </center>
+                    </fieldset>
+            </center>
+        </section>
+
+        <section>
+            <!-- SVG BOTTOM MENU-->
+
+            <br><br>
+            <hr>
+            <center>
+
+                <svg width="800" height="300">
+
+            <g  path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                <a href="index.html">
+                    <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Special Elite" font-size="27" id="svg_1" y="113" x="268" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Introdução
+                        </text>
+                </a>
+
+                <a href="local.html">
+                    <text transform="rotate(-5 420.03125000000017,71.50000000000018) " font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Quicksand'" font-size="31" id="svg_3" y="83" x="332" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Localização
+                        </text>
+                </a>
+
+                <a href="multimedia.html">
+                    <text font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Rounded Mplus 1c'" font-size="25" id="svg_4" y="108" x="428" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Multimédia
+                        </text>
+                </a>
+
+                <a href="info.html">
+                    <text font-style="normal" font-weight="normal" transform="rotate(34 548.984375,67.49999999999997) " xml:space="preserve" text-anchor="start" font-family="'Rounded Mplus 1c Bold'" font-size="18" id="svg_5" y="73.5" x="504" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Informações
+                        </text>
+                </a>
+
+                <a href="comentarios.html">
+                    <text font-style="normal" font-weight="normal" transform="rotate(-12 332.60937500000006,56.00000000000005) " xml:space="preserve" text-anchor="start" font-family="'Sacramento'" font-size="20" id="svg_2" y="60" x="290" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Comentarios
+                        </text>
+                </a>
+
+                <a href="quizz.html">
+                    <text font-style="normal" font-weight="normal" transform="rotate(-60 259.890625,78.5) " xml:space="preserve" text-anchor="start" font-family="'UnifrakturMaguntia'" font-size="24" id="svg_6" y="85" x="233" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000">Quizz
+                        </text>
+                </a>
+            </g>
+            </svg>
+
+            </center>
+        </section>
+
+    </main>
+
+    <footer>
+        <center>
+            <p>
+                <n>Nome: Rui Rodrigues | <a href="https://www.ulusofona.pt/"> Universidade Lusofona|</a> Aluno Nº 21801241 | 2º ano | LEI </n>
+            </p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
