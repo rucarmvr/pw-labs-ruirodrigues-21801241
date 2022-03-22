@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+	<style>
+		h1 {text-align: center;}
+		h2 {text-align: center;}
+
+	</style>
+
+    <title>Report da Aula PW 1</title>
+</head>
+<body>
+	<meta charset="UTF-8">
+    <h1> Report Lab 1 </h1>
+    <p style = "text-align: center"> No decorrer da atividade elaborada na ultima aula laboratorial <a href="https://index-21905985.herokuapp.com/">Aula 1</a> abordámos alguns tópicos e instruções básicas na criação e alojamento de uma <i>página web<i>.</p>
+    <h1> Relatótio de atividades </h1>
+    <ol>
+		<br>
+        <li><b><u>Criação da página</u></b> &#9997;:</li>
+		<br>
+		<ul>
+			<p>Foi disponibilizado por parte dos professores um modelo de uma página escrita em HTML já com algumas marcações para implementasse-mos e tivéssemos uma primeira interação com a linguagem. </p>
+			<p>Algumas destas marcações podem ser vistas na seguinte imagem:</p>
+			<br>
+			<center>
+			<img src="images/exemploMarcacoes.png" width="500" height ="150">
+			</center>
+		</ul>
+
+		<br>
+		<li><b><u>Alojamento da página</u></b> &#128246;:</li>
+		<br>
+			<ul>
+				<p>Para que seja possível alojar a página foi necessário então criar conta numa plataforma que providencia alojamento em cloud gratuitamente ( <a href="https://www.heroku.com/what">Heroku</a> ). </p>
+				<p>Uma vez criada a conta, foi então efectuado o link entre esta mesma plataforma e o GitHub, local que vai alojar todos os ficheiros e imagens.</p>
+				<p>Após as configurações feitas podemos então por a nossa página online (Link acima identificado como Aula 1).</p>
+		</ul>
+
+		<br>
+		<li><b><u>Compreensão da Internet e Rede </u></b>&#127760;:</li>
+		<br>
+			<ul>
+				<li><b>O que é um endereço de IP ?</b></li>
+				<br>
+				<p> Em suma um endereço de ip é um identificador que permite troca de informação entre dispositivos na rede. Um endereço de ip contém informação da localização e permite com que os dispositivos comuniquem.</p>
+				<p> Abaixo, a nivel de experiencia é então apresentado o IP do meu laptop, do telémovel usando dados móveis e por fim o IP do servidor Heroku onde a app está alojada.</p>
+				<br>
+				<center>
+				<img src="images/IPLaptop.png" >
+				<img src="images/IPDadosMoveis.png" >
+				</center>
+				<br>
+				<li><b>Percurso dos pacotes de IP :    <img src="images/portugalFlag.png" width = "16" height = "16">  &#128225  <images src="images/germanyFlag.png"></b></li>
+				<br>
+				<p>Um hop, ou salto, é interpretado como se fossem etapas ou dispositivos intermédios/as por onde a informação passa desde que sai da origem até ao destino.</p>
+				<center>
+				<images src="images/tracertComand.png" width="300" height ="300">
+				<images src="images/tracerouteGlobe.png" width="300" height ="300">
+				</center>
+				<br>
+
+				<center>
+				<images src="images/tracerouteInfo.png"  width="200" height ="200"/>
+				<figcaption>Numero de saltos : 3 <br>
+					Travel Time : 6ms <br>
+					Distância Real Percorrida : 1873km</figcaption>
+				</center>
+				<br>
+			</ul>
+			<li><b><u>Acesso via HTTP à minha página Web </u>&#128269;:</b></li>
+			<br>
+				<ul>
+					<li><b>HTTP GET</b></li>
+					<p>Usando o atalho Ctrl + U que simboliza um pedido HTML GET, podemos verificar que a resposta do servidor é exactamente o ficheiro que foi escrito préviamente:</p>
+					<center>
+						<img src="images/excertocode.png"  width="400" />
+						<figcaption>Excerto de código através de HTTP GEt</figcaption>
+					</center>
+					<br>
+					<li><b>Inspect</b></li>
+					<br>
+					<p>Usando o atalho Ctrl+Shift+i, que simboliza um comando de Inspect, podemos observar alguns dos pedidos eféctuados pelo servidor aos ficheiros usados na página web.</p>
+					<center>
+						<img src="images/Inspect Website.png"/>
+					</center>
+
+					<p> Como é possível observar pela imagem acima podemos confirmar que a página web necessita de descarregar dois ficheiros,
+						nomeadamente o próprio documento Html onde vem figurado todo o texto e por sua vez um ficheiro png que corresponde á imagem
+						introduzida nesta mesma página.
+					</p>
+					<p>Constata-se também a ordem pela qual estes ficheiros são requisitados, o tempo que os mesmos demoraram a ser descarregados e o tamanho dos mesmos</p>
+					<br>
+
+					<p>Explorando a ferramenta e selecionando um documento em especifico temos acesso a informações mais detalhadas desse mesmo elemento</p>
+					<br>
+					<center>
+						<img src="images/details.png"/>
+					</center>
+					<br>
+					<ul>
+						<li>Através da tab "Preview" podemos pré-visualizar o conteúdo do ficheiro em questão</li>
+						<br>
+						<center>
+							<img src="images/preview.png"/>
+						</center>
+						<br>
+						<li>Através da tab "Timing" temos acesso detalhado á linha temporal do pedido</li>
+						<br>
+						<center>
+							<img src="images/timing.png"/>
+						</center>
+						<br>
+						<li>Através da tab "Headers" podemos analisar informação detalhada do pedido feito ao servidor, consiste quase que como uma pergunta, ao qual o servidor depois envia a respectiva resposta</li>
+						<br>
+						<center>
+							<img src="images/headers.png"/>
+							<figcaption>Excerto da tab Headers.</figcaption>
+						</center>
+
+					</ul>
+
+				</ul>
+    </ol>
+
+<br><br><br><br>
+<center> <li> Trabalho realizado por Rui Rodrigues - 21801241 - LEI </li></center>
+</body>
+</html>
