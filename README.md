@@ -23,4 +23,4 @@
     2. Aplicará os conceitos aprendidos de propriedades CSS, em especial flexbox e grid, assim como responsividade com media queries
     3. Explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
 
-
+ 
