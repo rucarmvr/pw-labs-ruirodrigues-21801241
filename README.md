@@ -24,3 +24,4 @@
     3. Explorará os slides da aula para se familiarizar com a matéria e a assimilar para o mini-teste (todos os conceitos abordados neste lab sairão)
 # pw-labs-21801241-ruirodrigues-
 # pw-labs-21801241-ruirodrigues
+# pw-labs-21801241-ruirodrigues
