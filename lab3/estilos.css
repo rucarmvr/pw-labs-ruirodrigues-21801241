@@ -276,7 +276,6 @@ input[type=reset] {
 }
 
 textarea {
-    resize: disable;
     width: 90%;
     height: 150px;
     padding: 12px 10px;
