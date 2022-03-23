@@ -1,0 +1,128 @@
+img.direita {
+    position: absolute;
+    top: 750px;
+    right: 10%;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #000000;
+}
+
+img.esquerda {
+    position: absolute;
+    top: 750px;
+    left: 10%;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #000000;
+}
+
+.centrar {
+    margin-left: 75px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+
+/*-------------------------------------SCALE-----------------------------------------*/
+
+.scale {
+    transition: width 2s;
+}
+
+.scale:hover {
+    width: 350px;
+}
+
+
+/*-------------------------------------GREY-----------------------------------------*/
+
+.grey {
+    transition: width 2s;
+}
+
+.grey:hover {
+    width: 320px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+@keyframes grey {
+    0% {
+        transform: width(250);
+    }
+    50% {
+        transform: width(225);
+    }
+    100% {
+        transform: width(160);
+    }
+}
+
+
+/*-------------------------------------WAVE-----------------------------------------*/
+
+.wave {
+    float: left;
+    margin: 20px;
+    animation: wave ease-in-out 0.5s infinite alternate;
+    transform-origin: center -20px;
+}
+
+.wave:hover {
+    animation-play-state: paused;
+}
+
+.wave img {
+    border: 5px solid #f8f8f8;
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.wave figcaption {
+    text-align: center;
+}
+
+.wave:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #ffffff;
+    top: -10px;
+    left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+
+.wave:before {
+    content: '';
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    display: block;
+    height: 44px;
+    width: 47px;
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 16;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+
+/*  ------------------------------------------------------------------   */
