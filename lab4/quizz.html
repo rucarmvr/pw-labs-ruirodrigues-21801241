@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html lang="pt">
 
 <head>
@@ -19,15 +20,19 @@
     <link rel="shortcut icon" type="images/x-icon" href="images/favicon.ico" />
     <title>A Tour in London</title>
 </head>
-<body style="background-color:lightgray">
+
 <body>
 
+    <!--
+    <video autoplay muted loop id="myVideo">
+        <source src="images/background.mp4" type="video/mp4">
+    </video>-->
 
     <header>
 
         <h1> 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Londres 🏴󠁧󠁢󠁥󠁮󠁧󠁿 </h1>
         <figure>
-            <img src="images/London.jpg" alt="">
+            <img src="images/London.jpg">
             <details>
                     <summary>Hyde Park <b><a href="Hyde Park - O maior parque do centro de Londreshttps://www.tudosobrelondres.com › hyde-park" target="_blank">[1]</a></b></summary>
                     <p>O Hyde Park é um parque no centro de Londres, na Inglaterra. É famoso pela sua esquina do Orador.
@@ -35,12 +40,19 @@ Junto com os jardins Kensington, que ficam adjacentes, forma uma das maiores ár
 O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.</p>
                 </details>
         </figure>
-        <br><br><br>
+        <br><br>
+        <audio controls volume="0.1" id="audio-example-low" class="audio-example">
+                     <source src="../videos/Yiruma,River Flows in You.mp3">
+
+                      You will see this text if native audio playback is not supported.
+            </audio>
+
+        <br>
     </header>
 
     <nav id='menu'>
         <!-- NAVIGATION MENU-->
-        <label for='responsive-menu'></label><input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
         <ul>
             <li><a href='../index.html'>Home</a></li>
             <li><a href='index.html'>Introdução</a></li>
@@ -49,23 +61,17 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
             <li><a href='info.html'>Informações</a></li>
             <li><a href='quizz.html'>Quizz</a></li>
             <li><a href='html5-css.html'>HTML5</a></li>
-            <br>
         </ul>
     </nav>
 
     <main>
         <section>
             <!--QUIZZ FORMS-->
-            <div style="text-align: center;">
+            <center>
                 <h3>Quizz</h3>
                 <hr>
-                <audio controls volume="0.1" id="audio-example-low" class="audio-example">
-                     <source src="../videos/Yiruma,River Flows in You.mp3">
-
-                      You will see this text if native audio playback is not supported.
-                </audio>
-
-            </div>
+                <br><br>
+            </center>
             <form action="mailto:a21801241@alunos.ulht.pt" method="post" name="Form PW">
 
                 <fieldset>
@@ -120,22 +126,22 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
                 <!--Pergunta 3 -->
                 <label for="q3"><span style="font-size: 120%;">3.Quais as 4 linguas mais faladas em Inglaterra? <span style="color: red">*</span></span></label>
                 <br><br>
-                <label for="language1"></label><input type="checkbox" id="language1" name="language1" value="English" required>
+                <input type="checkbox" id="language1" name="language1" value="English" required>
                 <label for="vehicle1"> English              </label>
-                <label for="language2"></label><input type="checkbox" id="language2" name="language2" value="Malay" required>
+                <input type="checkbox" id="language2" name="language2" value="Malay" required>
                 <label for="vehicle2"> Malay                </label>
-                <label for="language3"></label><input type="checkbox" id="language3" name="language3" value="Mandarin" required>
+                <input type="checkbox" id="language3" name="language3" value="Mandarin" required>
                 <label for="vehicle3"> Mandarin                  </label>
-                <label for="language4"></label><input type="checkbox" id="language4" name="language4" value="Tamil" required>
+                <input type="checkbox" id="language4" name="language4" value="Tamil" required>
                 <label for="vehicle3"> Tamil                </label><br>
 
-                <label for="language5"></label><input type="checkbox" id="language5" name="language5" value="Bengali" required>
+                <input type="checkbox" id="language5" name="language5" value="Bengali" required>
                 <label for="vehicle3"> Bengali                </label>
-                <label for="language6"></label><input type="checkbox" id="language6" name="language6" value="Hindi" required>
+                <input type="checkbox" id="language6" name="language6" value="Hindi" required>
                 <label for="vehicle3"> Hindi                </label>
-                <label for="language7"></label><input type="checkbox" id="language7" name="language7" value="Portuguese" required>
+                <input type="checkbox" id="language7" name="language7" value="Portuguese" required>
                 <label for="vehicle3"> Portuguese                </label>
-                <label for="language8"></label><input type="checkbox" id="language8" name="language8" value="French " required>
+                <input type="checkbox" id="language8" name="language8" value="French " required>
                 <label for="vehicle3"> French                </label><br><br>
                 <hr><br><br>
 
@@ -143,15 +149,14 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
                 <!--Pergunta 4 -->
 
                 <label for="datemin"><span style="font-size: 120%;">4.Quando foi fundada o Reino Unido?<span style="color: red">*</span></span></label>
-                <label for="year"></label><input type="date" id="year" name="year" min="1980-01-02" max="1999-12-30" required><br><br>
+                <input type="date" id="year" name="year" min="1980-01-02" max="1999-12-30" required><br><br>
                 <hr><br><br>
 
 
                 <!--Pergunta 5 -->
                 <label for="ilhas"><span style="font-size: 120%;">5.Quantas ilhas fazem parte do país Reino Unido?<span style="color: red">*</span></span> </label>
 
-                <input type="range" id=ilhas name="numilhas" min="0" max="100" value="0" required oninput="let ilhas;
-                result.value=parseInt(ilhas.value)">
+                <input type="range" id=ilhas name="numilhas" min="0" max="100" value="0" required oninput="result.value=parseInt(ilhas.value)">
                 <output name="result" for="numilhas"> 0 </output> <small>Ilhas</small> <br><br>
                 <hr><br><br>
 
@@ -159,8 +164,8 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
                 <!--Pergunta 6 -->
 
                 <label for="ilhas"><span style="font-size: 120%;">6.Quais são as cores da bandeira de Inglaterra?<span style="color: red">*</span></span> </label>
-                <label for="color1"></label><input type="color" id="color1" name="color2" value="#000000" required>
-                <label for="color2"></label><input type="color" id="color2" name="color2" value="#000000" required> <small>click to choose</small> <br><br>
+                <input type="color" id="color1" name="color2" value="#000000" required>
+                <input type="color" id="color2" name="color2" value="#000000" required> <small>click to choose</small> <br><br>
                 <hr><br><br>
 
                 <!--Pergunta 7-->
@@ -177,13 +182,13 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
                 <label for="conduzDrt">Direito</label><br><br>
                 <hr><br><br>
 
-                <div style="text-align: center;">
+                <center>
                     <br><br>
                     <hr><br><br>
                     <input type="submit" value="Submit All" title="Submit Answers" alt="Submit">
                     <input type="reset" value="Reset All" title="Reset Fields">
                     <br><br>
-                </div>
+                </center>
 
             </fieldset>
         </section>
@@ -210,15 +215,15 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
     
                                 <fieldset> 
                                     <label> <span style="font-size: 120%;">Caso já tenha visitado Londres e tem uma história que gostaria de partilhar pode a deixar aqui:</span> <br>
-                                    <div style="text-align: center;">
+                                    <center>
                                         <textarea name="sugestões" rows="20" cols="50" placeholder="Escreva aqui a sua história..."></textarea><br>
-                                    </div>
+                                    </center>
                         </label>
                     <br><br>
 
                     <label>
                             <span style="font-size: 80%;">Data de Visita:</span>
-                            <input type="date" id="years" name="years"  width="40px" max="2021-12-31" ><br>
+                            <input type="date" id="year" name="year"  width="40px" max="2021-12-31" ><br>
                         </label>
 
                     <label>
@@ -228,18 +233,18 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
                     <br><br>
 
                     <label>
-                        <div style="text-align: center;">
+                        <center>
                             <span style="font-size: 120%;">Se quiser adicionar alguma fotografia pode as deixar aqui:</span><br><br>
                             <input type="file" id="files" name="files" multiple><br><br> 
-                        </div>
+                        </center>
                         </label>
 
 
-                    <div style="text-align: center;">
+                    <center>
                         <br><br><br><br>
                         <label> <span style="font-size: 120%;">Enviar</span> <br>
                             <input type="image" src="images/submit-icon-.jpg" title="Submit Answers" alt="Submit" width="48" height="48">
-                        </div>
+                        </center>
                                 </fieldset>
                     </fieldset>
                 </form>
@@ -284,14 +289,11 @@ O parque Hyde é oficialmente reconhecido como um dos parques reais de Londres.<
             </section>
         </main>
 
-        <aside id="sticker">
-
             <br>
             <p>Visit the London City</p>
             <p>...a real Atlantis in United Kindom</p>
             <br>
 
-        </aside>
         <footer>
                 <p>
                     <n>Nome: Rui Rodrigues | <a href="https://www.ulusofona.pt/"> Universidade Lusofona|</a> Aluno Nº 21801241 | 2º ano | LEI </n>
