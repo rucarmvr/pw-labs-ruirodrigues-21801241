@@ -25,12 +25,13 @@ html {
     }
 
     nav {
+        background-image:url("images/london-city_grande.jpg");
         display: flex;
         flex-direction: column;
         align-items: stretch;
         justify-content: space-between;
         height: 800px;
-        position: center;
+        position: -ms-device-fixed;
     }
 
     nav ul {
@@ -107,13 +108,14 @@ main {
 
 header {
     margin-bottom: 2%;
-    margin-left: auto;
+    margin-left: ;
     margin-right: auto;
     border-radius: 15%;
     text-align: center;
     grid-area: header;
     position: relative;
-    width: 50%;
+    width: 100%;
+    b
 }
 
 h1 {
@@ -196,17 +198,6 @@ select {
     box-sizing: border-box;
 }
 
-input[type=submit],
-input[type=reset] {
-    background-color: #729bf1;
-    border: grey;
-    color: black;
-    padding: 16px 32px;
-    text-decoration: black;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
 textarea {
     width: 90%;
     height: 150px;
@@ -282,7 +273,7 @@ footer {
 
 .capitais img {
     display: flex;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px;
     height: 100%;
 }
 

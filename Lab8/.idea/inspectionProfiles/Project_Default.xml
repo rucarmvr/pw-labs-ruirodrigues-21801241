@@ -1,0 +1,71 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="flex-flow" />
+            <item index="1" class="java.lang.String" itemvalue="flex-item-align" />
+            <item index="2" class="java.lang.String" itemvalue="transform" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="enter" />
+            <item index="1" class="java.lang.String" itemvalue="volume" />
+            <item index="2" class="java.lang.String" itemvalue="path" />
+            <item index="3" class="java.lang.String" itemvalue="begin" />
+            <item index="4" class="java.lang.String" itemvalue="dur" />
+            <item index="5" class="java.lang.String" itemvalue="value" />
+            <item index="6" class="java.lang.String" itemvalue=";" />
+            <item index="7" class="java.lang.String" itemvalue="align-content" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="20">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="table" />
+            <item index="7" class="java.lang.String" itemvalue="body" />
+            <item index="8" class="java.lang.String" itemvalue="br" />
+            <item index="9" class="java.lang.String" itemvalue="caption" />
+            <item index="10" class="java.lang.String" itemvalue="n" />
+            <item index="11" class="java.lang.String" itemvalue="fieldset" />
+            <item index="12" class="java.lang.String" itemvalue="center" />
+            <item index="13" class="java.lang.String" itemvalue="div" />
+            <item index="14" class="java.lang.String" itemvalue="a" />
+            <item index="15" class="java.lang.String" itemvalue="grid-template" />
+            <item index="16" class="java.lang.String" itemvalue="auto" />
+            <item index="17" class="java.lang.String" itemvalue="fr" />
+            <item index="18" class="java.lang.String" itemvalue="hover" />
+            <item index="19" class="java.lang.String" itemvalue="extended" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.isalnumeric" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
