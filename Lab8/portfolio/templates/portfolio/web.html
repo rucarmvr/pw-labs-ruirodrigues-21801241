@@ -1,6 +1,7 @@
 {% extends 'portfolio/layout.html' %}
 
 {% load static %}
+
 {% block content %}
 
     <!-- Service Section -->
@@ -17,11 +18,33 @@
             <div class="service-bottom">
                 {% for web_content in web %}
                     <div class="service-item">
-                        <div class="icon"><img src={{  web_content.logo }}></div>
+                        {% load static %}
+                        <div class="icon"><img src="{% static web_content.imagem %}" alt=""/></div>
                         <h2>{{ web_content.titulo }} </h2>
                         <p>{{ web_content.texto }}</p>
                     </div>
                 {% endfor %}
+                <div class="service-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
+                        sed
+                        architecto placeat beatae tenetur officia quod</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
+                        sed
+                        architecto placeat beatae tenetur officia quod</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
+                        sed
+                        architecto placeat beatae tenetur officia quod</p>
+                </div>
             </div>
         </div>
     </section>

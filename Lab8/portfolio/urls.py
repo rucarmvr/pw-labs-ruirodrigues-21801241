@@ -13,7 +13,6 @@ urlpatterns = [
     path('contact', views.contact_page_view, name='contact'),
     path('licenciatura', views.licenciatura_page_view, name='licenciatura'),
     path('blog', views.blog_page_view, name='blog'),
-    path('index', views.index_page_view, name='index'),
-    path('login', views.login_page_view, name='login'),
-    path('logout', views.logout_page_view, name='logout'),
+
+
 ]

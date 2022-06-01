@@ -1,6 +1,5 @@
 {% extends 'portfolio/layout.html' %}
 
-{% load static %}
 {% block content %}
     <!-- Hero Section  -->
     <section id="hero">
@@ -29,8 +28,8 @@
             <div class="service-bottom">
                 {% for web in home_web %}
                     <div class="service-item">
-
-                        <div class="icon"><img src="{{ web.logo.url }} alt=" alt=""/></div>
+                        {% load static %}
+                        <div class="icon"><img src="{{ web.logo.url }} alt="/></div>
                         <h2> {{ web.titulo }} </h2>
                         <p> {{ web.texto }} </p>
                     </div>
@@ -47,7 +46,6 @@
                 <h1 class="section-title">Recent <span>Projects</span></h1>
             </div>
             <div class="all-projects">
-
                 {% for projeto in home %}
                     <div class="project-item">
                         <div class="project-info">
@@ -56,7 +54,8 @@
                             <p>{{ projeto.texto }} </p>
                         </div>
                         <div class="project-img">
-                            <img src= {{ projeto.image.url }}>
+                            {% load static %}
+                            <img src="{{ projeto.image.url }}" alt="projeto">
                         </div>
                     </div>
                 {% endfor %}
