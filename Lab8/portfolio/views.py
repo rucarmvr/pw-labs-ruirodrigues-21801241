@@ -3,12 +3,7 @@ from portfolio.models import Projetos, Home, Home_Web, Web
 
 
 def home_page_view(request):
-    context = {'home': Home.objects.all()}
-    return render(request, 'portfolio/home.html', context)
-
-
-def home_web_page_view(request):
-    context = {'home_web': Home_Web.objects.all()}
+    context = {'home': Home.objects.all(), 'home_web': Home_Web.objects.all()}
     return render(request, 'portfolio/home.html', context)
 
 
@@ -36,4 +31,3 @@ def licenciatura_page_view(request):
 
 def blog_page_view(request):
     return render(request, 'portfolio/blog.html')
-

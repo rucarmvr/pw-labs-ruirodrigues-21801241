@@ -14,7 +14,7 @@
     </section>
     <!-- End Hero Section  -->
 
-    <!-- Web Section -->
+    <!-- Service Section -->
     <section id="services">
         <div class="services container">
             <div class="service-top">
@@ -26,18 +26,18 @@
                     voluptatum explicabo!</p>
             </div>
             <div class="service-bottom">
-                {% for web in home_web %}
+                {% for web_content in home_web %}
                     <div class="service-item">
                         {% load static %}
-                        <div class="icon"><img src="{{ web.logo.url }} alt=" alt=""/></div>
-                        <h2> {{ web.titulo }} </h2>
-                        <p> {{ web.texto }} </p>
+                        <div class="icon"><img src="{{ web_content.logo.url }}" alt=""/></div>
+                        <h2>{{ web_content.titulo }} </h2>
+                        <p>{{ web_content.texto }}</p>
                     </div>
                 {% endfor %}
             </div>
         </div>
     </section>
-    <!-- End Web Section -->
+    <!-- End Service Section -->
 
     <!-- Projects Section -->
     <section id="projects">

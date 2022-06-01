@@ -19,7 +19,7 @@
                 {% for web_content in web %}
                     <div class="service-item">
                         {% load static %}
-                        <div class="icon"><img src="{% static web_content.imagem %}" alt=""/></div>
+                        <div class="icon"><img src="{{ web_content.logo.url }}" alt=""/></div>
                         <h2>{{ web_content.titulo }} </h2>
                         <p>{{ web_content.texto }}</p>
                     </div>

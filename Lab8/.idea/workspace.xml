@@ -19,12 +19,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29yrSLEzFNJzKW9TPPYHAaCZ8vN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -65,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654096166854</updated>
       <workItem from="1654096168480" duration="1202000" />
-      <workItem from="1654101852225" duration="1898000" />
+      <workItem from="1654101852225" duration="6233000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <created>1654096463283</created>
@@ -81,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654096785345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="k">
+      <created>1654104079589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654104079589</updated>
+    </task>
+    <task id="LOCAL-00004" summary="k">
+      <created>1654104084295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654104084295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +116,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="k" />
     <option name="LAST_COMMIT_MESSAGE" value="k" />
   </component>
