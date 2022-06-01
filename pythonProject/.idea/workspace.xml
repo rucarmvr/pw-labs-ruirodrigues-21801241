@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14e9fea3-bfee-47f7-9aaa-e7630d536050" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab8/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/config/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/config/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/config/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/migrations/0002_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/migrations/0003_blogmodel_commentmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/css/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/css/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/image/conetion.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/image/hero-image.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/image/laptop.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/image/projeto.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/image/projetos1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/image/rui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/static/portfolio/image/status.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/blog/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/blog/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/blog/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/portfolio/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/portfolio/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/portfolio/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/portfolio/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/portfolio/licenciatura.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/portfolio/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/templates/portfolio/web.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8/portfolio/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/portfolio/static/portfolio/image/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/portfolio/static/portfolio/image/projeto_de_design.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/portfolio/static/portfolio/image/projetos1_DG06anx.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/Lab8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/Lab8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/Lab8/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/Lab8/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/Lab8/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/Lab8/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/portfolio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/portfolio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/portfolio/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/portfolio/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/portfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/portfolio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/portfolio/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/portfolio/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/portfolio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/portfolio/static/portfolio/image/status_zjmDc51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29yH3o3iHfpBM67JrCszR4CDOx7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14e9fea3-bfee-47f7-9aaa-e7630d536050" name="Changes" comment="" />
+      <created>1654078208947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654078208947</updated>
+      <workItem from="1654078212703" duration="207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+</project>

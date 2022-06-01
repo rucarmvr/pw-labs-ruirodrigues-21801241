@@ -1,0 +1,30 @@
+{% extends 'portfolio/layout.html' %}
+
+{% load static %}
+{% block content %}
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Recent <span>Projects</span></h1>
+            </div>
+            <div class="all-projects">
+                {% for projeto in projects %}
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>{{ projeto.titulo }} </h1>
+                            <h2>{{ projeto.subtitulo }} </h2>
+                            <p>{{ projeto.texto }}</p>
+                        </div>
+                        <div class="project-img">
+                            <img src= {{ projeto.image }}>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+
+{% endblock %}

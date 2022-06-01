@@ -1,0 +1,14 @@
+{% extends 'portfolio/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <h1> Welcopme, {{ request.user.first_name }}</h1>
+    <ul>
+        <li>Username: {{ request.user.username }}</li>
+        <li>Email: {{ request.user.email }}</li>
+    </ul>
+
+    <a>href="{{% url 'logout?' %}}">Log out</a>
+{% endblock %}
