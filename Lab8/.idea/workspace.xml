@@ -41,6 +41,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/static/portfolio/image" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="lab8" type="Python.DjangoServer" factoryName="Django server">
       <module name="lab8" />
@@ -75,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654096166854</updated>
       <workItem from="1654096168480" duration="1202000" />
-      <workItem from="1654101852225" duration="11096000" />
+      <workItem from="1654101852225" duration="14431000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <created>1654096463283</created>
@@ -119,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654108611326</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="k">
+      <created>1654189398644</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654189398644</updated>
+    </task>
+    <task id="LOCAL-00008" summary="k">
+      <created>1654189403361</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654189403361</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
