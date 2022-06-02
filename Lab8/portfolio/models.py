@@ -35,3 +35,9 @@ class Licenciatura(models.Model):
     subtitulo = models.CharField(max_length=200)
     texto = models.CharField(max_length=200000000)
     image = models.ImageField(upload_to='image', null=True)
+
+
+class About(models.Model):
+    logo = models.ImageField(upload_to='image', null=True)
+    titulo = models.CharField(max_length=200)
+    texto = models.CharField(max_length=20000)

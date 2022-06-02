@@ -35,45 +35,14 @@
                     informações sobre mim.</p>
             </div>
             <div class="service-bottom">
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-                    <h2>Licenciatura</h2>
-                    <p>O curso de licenciatura em Engenharia Informática da Universidade Lusófona forma licenciados
-                        capazes de assumir posições de destaque...(Mais)</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-                    <h2>Educação</h2>
-                    <p>Este curso visa a formação de profissionais aptos a realizar a captação de fotografia, vídeo e
-                        áudio, o desenho e produção digital de conteúdos multimédia e...(Mais)
-                    </p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-                    <h2>Certificados</h2>
-                    <p>Os certificados MPGC - Gestão de Pessoas são uma forma rápida de se manter atualizado no
-                        conhecimento de ponta aplicado a Gestão de Pessoas...(Mais)</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-                    <h2>Outras habilitações</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
-                        sedlllllllllllllll</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-                    <h2>Aptidões e competências</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
-                        sed
-                        architecto placeat beatae tenetur officia quod</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
-                    <h2>Interesses e hobbies</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem
-                        sed
-                        architecto placeat beatae tenetur officia quod</p>
-                </div>
+                {% for about_content in about %}
+                    <div class="service-item">
+                        {% load static %}
+                        <div class="icon"><img src="{{ about_content.logo.url }}" alt=""/></div>
+                        <h2>{{ about_content.titulo }} </h2>
+                        <p>{{ about_content.texto }}</p>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </section>

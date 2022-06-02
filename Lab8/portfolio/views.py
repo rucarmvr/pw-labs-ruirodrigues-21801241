@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from portfolio.models import Projetos, Home, Home_Web, Web, Licenciatura
+from portfolio.models import Projetos, Home, Home_Web, Web, Licenciatura, About
 
 
 def home_page_view(request):
@@ -13,7 +13,8 @@ def web_page_view(request):
 
 
 def about_page_view(request):
-    return render(request, 'portfolio/about.html')
+    context = {'about': About.objects.all()}
+    return render(request, 'portfolio/about.html', context)
 
 
 def projects_page_view(request):
