@@ -1,5 +1,7 @@
 {% extends 'portfolio/layout.html' %}
 
+{% load static %}
+
 {% block content %}
     <!-- Projects Section -->
     <section id="projects">
@@ -16,7 +18,6 @@
                             <p>{{ projeto.texto }}</p>
                         </div>
                         <div class="project-img">
-                            {% load static %}
                             <img src="{{ projeto.image.url }}" alt="projeto">
                         </div>
                     </div>

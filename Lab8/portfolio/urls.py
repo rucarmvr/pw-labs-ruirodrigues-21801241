@@ -13,5 +13,4 @@ urlpatterns = [
     path('licenciatura', views.licenciatura_page_view, name='licenciatura'),
     path('blog', views.blog_page_view, name='blog'),
 
-
 ]

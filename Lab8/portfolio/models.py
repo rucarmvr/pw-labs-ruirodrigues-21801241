@@ -10,6 +10,12 @@ class Home_Web(models.Model):
     texto = models.CharField(max_length=200)
 
 
+class Web(models.Model):
+    logo = models.ImageField(upload_to='image', null=True)
+    titulo = models.CharField(max_length=20)
+    texto = models.CharField(max_length=200)
+
+
 class Home(models.Model):
     titulo = models.CharField(max_length=20)
     subtitulo = models.CharField(max_length=20)
@@ -24,7 +30,8 @@ class Projetos(models.Model):
     image = models.ImageField(upload_to='image', null=True)
 
 
-class Web(models.Model):
-    logo = models.ImageField(upload_to='image', null=True)
+class Licenciatura(models.Model):
     titulo = models.CharField(max_length=20)
-    texto = models.CharField(max_length=200)
+    subtitulo = models.CharField(max_length=20)
+    texto = models.CharField(max_length=200000000)
+    image = models.ImageField(upload_to='image', null=True)
