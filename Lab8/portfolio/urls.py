@@ -12,5 +12,8 @@ urlpatterns = [
     path('contact', views.contact_page_view, name='contact'),
     path('licenciatura', views.licenciatura_page_view, name='licenciatura'),
     path('blog', views.blog_page_view, name='blog'),
+    path('educacao', views.educacao_page_view, name='educacao'),
+    path('certificados', views.certificados_page_view, name='certificados'),
+
 
 ]

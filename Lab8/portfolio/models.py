@@ -41,3 +41,15 @@ class About(models.Model):
     logo = models.ImageField(upload_to='image', null=True)
     titulo = models.CharField(max_length=200)
     texto = models.CharField(max_length=20000)
+
+
+class Educacao(models.Model):
+    titulo = models.CharField(max_length=200)
+    subtitulo = models.CharField(max_length=200)
+    texto = models.CharField(max_length=200000000)
+
+
+class Certificados(models.Model):
+    titulo = models.CharField(max_length=200)
+    subtitulo = models.CharField(max_length=200)
+    texto = models.CharField(max_length=200000000)
