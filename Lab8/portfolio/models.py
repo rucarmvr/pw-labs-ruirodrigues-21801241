@@ -8,6 +8,7 @@ class Home_Web(models.Model):
     logo = models.ImageField(upload_to='image', null=True)
     titulo = models.CharField(max_length=20)
     texto = models.CharField(max_length=200)
+    url = models.CharField(max_length=250)
 
 
 class Web(models.Model):

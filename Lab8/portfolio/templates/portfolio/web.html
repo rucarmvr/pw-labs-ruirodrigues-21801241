@@ -3,7 +3,7 @@
 {% load static %}
 
 {% block content %}
-
+    <link rel="stylesheet" href="{% static 'portfolio/css/app.js' %}">
     <!-- Service Section -->
     <section id="services">
         <div class="services container">
@@ -22,7 +22,7 @@
                         <div class="icon"><img src="{{ web_content.logo.url }}" alt=""/></div>
                         <h2>{{ web_content.titulo }} </h2>
                         <p>{{ web_content.texto }}</p>
-                    </div>
+                        <a href="projects" type="button"  class="cta">read more</a></div>
                 {% endfor %}
             </div>
         </div>
