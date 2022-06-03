@@ -1,0 +1,27 @@
+{% extends 'portfolio/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Interesses e hobbies<span></span></h1>
+            </div>
+            <div class="all-projects">
+                {% for int_hob_content in interesses_hobbies %}
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>{{ int_hob_content.titulo }} </h1>
+                            <h2>{{ int_hob_content.subtitulo }} </h2>
+                            <p>{{ int_hob_content.texto }} </p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+
+{% endblock %}

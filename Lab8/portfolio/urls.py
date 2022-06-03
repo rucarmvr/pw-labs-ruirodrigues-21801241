@@ -14,6 +14,6 @@ urlpatterns = [
     path('blog', views.blog_page_view, name='blog'),
     path('educacao', views.educacao_page_view, name='educacao'),
     path('certificados', views.certificados_page_view, name='certificados'),
-
+    path('interesses_hobbies', views.interesses_hobbies_page_view, name='interesses_hobbies'),
 
 ]

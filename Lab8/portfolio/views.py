@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from portfolio.models import Projetos, Home, Home_Web, Web, Licenciatura, About, Educacao, Certificados
+from portfolio.models import Projetos, Home, Home_Web, Web, Licenciatura, About, Educacao, Certificados, \
+    Interesses_hobbies
 
 
 def home_page_view(request):
@@ -43,3 +44,8 @@ def educacao_page_view(request):
 def certificados_page_view(request):
     context = {'certificados': Certificados.objects.all()}
     return render(request, 'portfolio/certificados.html', context)
+
+
+def interesses_hobbies_page_view(request):
+    context = {'interesses_hobbies': Interesses_hobbies.objects.all()}
+    return render(request, 'portfolio/interesses_hobbies.html', context)

@@ -53,3 +53,9 @@ class Certificados(models.Model):
     titulo = models.CharField(max_length=200)
     subtitulo = models.CharField(max_length=200)
     texto = models.CharField(max_length=200000000)
+
+
+class Interesses_hobbies(models.Model):
+    titulo = models.CharField(max_length=200)
+    subtitulo = models.CharField(max_length=200)
+    texto = models.CharField(max_length=200000000)
