@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ea9c279820ea52ea3c616d06ca77b1f5d8cfde11b1608ca9554c91b0b1e39f2b"
+            "sha256": "6bdb17616f234f86520deb79ce3b7cc41fb2f729ebe73b32e3134b2be61ccb17"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -24,20 +24,6 @@
             "markers": "python_version >= '3.7'",
             "version": "==3.5.2"
         },
-        "dj-database-url": {
-            "hashes": [
-                "sha256:4aeaeb1f573c74835b0686a2b46b85990571159ffc21aa57ecd4d1e1cb334163",
-                "sha256:851785365761ebe4994a921b433062309eb882fedd318e1b0fcecc607ed02da9"
-            ],
-            "version": "==0.5.0"
-        },
-        "dj-email-url": {
-            "hashes": [
-                "sha256:64257c4f9d8139a4af8e5267229d32260e433fbf257b0cf8fc855bb0cc39ca7d",
-                "sha256:ef36f8a324ec57cf3be5c7a7ef44ed6900ca0208624a918ab33adc1cf6427b39"
-            ],
-            "version": "==1.0.5"
-        },
         "django": {
             "hashes": [
                 "sha256:502ae42b6ab1b612c933fb50d5ff850facf858a4c212f76946ecd8ea5b3bf2d9",
@@ -46,23 +32,13 @@
             "index": "pypi",
             "version": "==4.0.5"
         },
-        "django-cache-url": {
-            "hashes": [
-                "sha256:6cc9901a99a99751f5458aa7de08ce06e48c1441b1a94c9457d78af74fab9a26",
-                "sha256:c4a62634cffc9d636073cef597a44576d67b07660ab2ef1f02b160ee7ecf0e98"
-            ],
-            "version": "==3.4.2"
-        },
         "environs": {
-            "extras": [
-                "django"
-            ],
             "hashes": [
-                "sha256:a98005aab7613b6fe7a1af7192a5163f72a52d3348d3918e6c7a2a32e4012779",
-                "sha256:bf3fd6bc54fcfd7f512ddcb80a7781f0ced2b0c83dd123d619e9468ecdaaf537"
+                "sha256:1e549569a3de49c05f856f40bce86979e7d5ffbbc4398e7f338574c220189124",
+                "sha256:a76307b36fbe856bdca7ee9161e6c466fd7fcffc297109a118c59b54e27e30c9"
             ],
             "index": "pypi",
-            "version": "==8.0.0"
+            "version": "==9.5.0"
         },
         "gunicorn": {
             "hashes": [
