@@ -36,6 +36,7 @@
   <component name="ProjectId" id="29yrSLEzFNJzKW9TPPYHAaCZ8vN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +53,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/portfolio/static/portfolio/image" />
     </key>
@@ -91,6 +95,10 @@
       <updated>1654096166854</updated>
       <workItem from="1654096168480" duration="1202000" />
       <workItem from="1654101852225" duration="35600000" />
+      <workItem from="1654295320625" duration="4912000" />
+      <workItem from="1654300466395" duration="901000" />
+      <workItem from="1654301395050" duration="1893000" />
+      <workItem from="1654303544334" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <created>1654096463283</created>
@@ -218,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654294065630</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="k">
+      <created>1654303555152</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654303555152</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

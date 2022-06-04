@@ -1,0 +1,32 @@
+{% extends 'portfolio/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'portfolio/css/app.js' %}">
+    <!-- Service Section -->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title">W<span>e</span>b</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda
+                    quas
+                    magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque
+                    molestias
+                    voluptatum explicabo!</p>
+            </div>
+            <div class="service-bottom">
+                {% for web_content in web %}
+                    <div class="service-item">
+                        {% load static %}
+                        <div class="icon"><img src="{{ web_content.logo.url }}" alt=""/></div>
+                        <h2>{{ web_content.titulo }} </h2>
+                        <p>{{ web_content.texto }}</p>
+                        <a href="projects" type="button"  class="cta">read more</a></div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section -->
+
+{% endblock %}
