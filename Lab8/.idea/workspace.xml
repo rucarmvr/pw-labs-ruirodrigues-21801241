@@ -1,74 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d48df4e9-df59-4cdd-9d75-8c59d7a0c67d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="fd8b03fa-e75c-41da-89f5-e14f83fb8b0e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29yrSLEzFNJzKW9TPPYHAaCZ8vN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="2" id="Remove" />
-  </component>
+  <component name="ProjectId" id="2A7gRfRrOAd7Qo8PYgzyjsx0udG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/portfolio/static/portfolio/image" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="lab8" type="Python.DjangoServer" factoryName="Django server">
@@ -77,7 +35,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -99,195 +56,25 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d48df4e9-df59-4cdd-9d75-8c59d7a0c67d" name="Changes" comment="" />
-      <created>1654096166854</created>
+      <changelist id="fd8b03fa-e75c-41da-89f5-e14f83fb8b0e" name="Changes" comment="" />
+      <created>1654366032669</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654096166854</updated>
-      <workItem from="1654096168480" duration="1202000" />
-      <workItem from="1654101852225" duration="35600000" />
-      <workItem from="1654295320625" duration="4912000" />
-      <workItem from="1654300466395" duration="901000" />
-      <workItem from="1654301395050" duration="1893000" />
-      <workItem from="1654303544334" duration="2671000" />
-      <workItem from="1654306513449" duration="943000" />
-      <workItem from="1654309810587" duration="151000" />
-      <workItem from="1654310242592" duration="1561000" />
-      <workItem from="1654312847199" duration="1152000" />
-      <workItem from="1654314026913" duration="639000" />
-      <workItem from="1654363668840" duration="30000" />
-      <workItem from="1654364037761" duration="383000" />
-      <workItem from="1654364425918" duration="731000" />
+      <updated>1654366032669</updated>
+      <workItem from="1654366034995" duration="1937000" />
     </task>
-    <task id="LOCAL-00001" summary="k">
-      <created>1654096463283</created>
+    <task id="LOCAL-00001" summary="comiti do lab8 5junho">
+      <created>1654425394802</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1654096463283</updated>
+      <updated>1654425394802</updated>
     </task>
-    <task id="LOCAL-00002" summary="k">
-      <created>1654096785345</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654096785345</updated>
-    </task>
-    <task id="LOCAL-00003" summary="k">
-      <created>1654104079589</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654104079589</updated>
-    </task>
-    <task id="LOCAL-00004" summary="k">
-      <created>1654104084295</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654104084295</updated>
-    </task>
-    <task id="LOCAL-00005" summary="k">
-      <created>1654108606532</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654108606532</updated>
-    </task>
-    <task id="LOCAL-00006" summary="k">
-      <created>1654108611326</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1654108611326</updated>
-    </task>
-    <task id="LOCAL-00007" summary="k">
-      <created>1654189398644</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1654189398644</updated>
-    </task>
-    <task id="LOCAL-00008" summary="k">
-      <created>1654189403361</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1654189403361</updated>
-    </task>
-    <task id="LOCAL-00009" summary="k">
-      <created>1654201905942</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1654201905942</updated>
-    </task>
-    <task id="LOCAL-00010" summary="k">
-      <created>1654201910185</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1654201910185</updated>
-    </task>
-    <task id="LOCAL-00011" summary="k">
-      <created>1654208382315</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1654208382315</updated>
-    </task>
-    <task id="LOCAL-00012" summary="k">
-      <created>1654208387199</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1654208387199</updated>
-    </task>
-    <task id="LOCAL-00013" summary="k">
-      <created>1654245242056</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1654245242056</updated>
-    </task>
-    <task id="LOCAL-00014" summary="k">
-      <created>1654248135710</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1654248135710</updated>
-    </task>
-    <task id="LOCAL-00015" summary="k">
-      <created>1654293271382</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1654293271382</updated>
-    </task>
-    <task id="LOCAL-00016" summary="k">
-      <created>1654293292535</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1654293292535</updated>
-    </task>
-    <task id="LOCAL-00017" summary="k">
-      <created>1654294052059</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1654294052059</updated>
-    </task>
-    <task id="LOCAL-00018" summary="k">
-      <created>1654294065630</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1654294065630</updated>
-    </task>
-    <task id="LOCAL-00019" summary="k">
-      <created>1654303555152</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1654303555152</updated>
-    </task>
-    <task id="LOCAL-00020" summary="k">
-      <created>1654303997818</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1654303997818</updated>
-    </task>
-    <task id="LOCAL-00021" summary="k">
-      <created>1654304003726</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1654304003726</updated>
-    </task>
-    <task id="LOCAL-00022" summary="k">
-      <created>1654310867678</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1654310867678</updated>
-    </task>
-    <task id="LOCAL-00023" summary="k">
-      <created>1654310881747</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1654310881747</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -301,8 +88,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="k" />
-    <option name="LAST_COMMIT_MESSAGE" value="k" />
+    <MESSAGE value="comiti do lab8 5junho" />
+    <option name="LAST_COMMIT_MESSAGE" value="comiti do lab8 5junho" />
   </component>
 </project>

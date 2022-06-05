@@ -1,4 +1,3 @@
-from django.contrib.auth.models import User
 from django.db import models
 
 save_as = True
