@@ -417,14 +417,14 @@ p {
 }
 
 #projects .all-projects {
-    display: flex;
+    display: contents;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
 #projects .project-item {
-    display: flex;
+    display: contents;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -438,7 +438,7 @@ p {
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
-    display: flex;
+    display: contents;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
