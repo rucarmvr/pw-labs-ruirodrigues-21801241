@@ -1,0 +1,28 @@
+{% extends 'portfolio/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Certifi<span>c</span>ados</h1>
+            </div>
+            <div class="all-projects">
+                {% for hab_content in laboratorio %}
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>{{ hab_content.titulo }} </h1>
+                            <h2>{{ hab_content.subtitulo }} </h2>
+                            <p>{{ hab_content.texto }} </p>
+                            <a href="laboratorio" type="button" class="cta">read more</a></div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+
+{% endblock %}
