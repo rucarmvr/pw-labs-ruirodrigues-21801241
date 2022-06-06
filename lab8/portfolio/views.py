@@ -1,7 +1,8 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 
 from portfolio.models import Projetos, Home_projets, Home_Web, Web, About, Educacao, Certificados, \
-    Interesses_hobbies, Licenciatura
+    Interesses_hobbies, Licenciatura, Outras_Habilitacoes, Laboratorio, OutSystems
 
 
 def home_page_view(request):
@@ -58,5 +59,22 @@ def fisica_page_view(request):
 
 
 def outras_habilitacoes_page_view(request):
-    context = {'fisica': Interesses_hobbies.objects.all()}
+    context = {'outras_habilitacoes': Outras_Habilitacoes.objects.all()}
     return render(request, 'portfolio/licenciatura/outras_habilitacoes.html', context)
+
+
+def laboratorio_page_view(request):
+    context = {'laboratorio': Laboratorio.objects.all()}
+    return render(request, 'portfolio/programacao_web/laboratorio.html', context)
+
+
+def outsystems_page_view(request):
+    context = {'outsystems': OutSystems.objects.all()}
+    return render(request, 'portfolio/programacao_web/outsystems.html', context)
+
+
+def pdf_page_view(request):
+    with open('portfolio/static/portfolio/files/Projeto_2021-2022.pdf', 'rb') as pdf:
+        context = HttpResponse(pdf.read(), content_type='application/pdf')
+        context['Content-Disposition'] = 'inline;filename=mypdf.pdf'
+        return context

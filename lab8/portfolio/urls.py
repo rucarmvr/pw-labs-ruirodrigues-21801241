@@ -18,5 +18,7 @@ urlpatterns = [
     path('interesses_hobbies', views.interesses_hobbies_page_view, name='interesses_hobbies'),
     path('fisica', views.fisica_page_view, name='fisica'),
     path('outras_habilitacoes', views.outras_habilitacoes_page_view, name='outras_habilitacoes'),
-
+    path('laboratorio', views.laboratorio_page_view, name='laboratorio'),
+    path('outsystems', views.outsystems_page_view, name='outsystems'),
+    path('view-pdf', views.pdf_page_view, name='pdf_view'),
 ]

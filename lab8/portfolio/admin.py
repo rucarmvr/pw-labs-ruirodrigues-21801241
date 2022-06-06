@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from .models import Projetos, Home_projets, Home_Web, Web, About, Educacao, Certificados, Interesses_hobbies, \
-    Licenciatura
+    Licenciatura, Laboratorio, Outras_Habilitacoes, OutSystems
 
 # register
 
@@ -14,3 +14,6 @@ admin.site.register(About)
 admin.site.register(Educacao)
 admin.site.register(Certificados)
 admin.site.register(Interesses_hobbies)
+admin.site.register(Laboratorio)
+admin.site.register(Outras_Habilitacoes)
+admin.site.register(OutSystems)

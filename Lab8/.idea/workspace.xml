@@ -6,29 +6,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd8b03fa-e75c-41da-89f5-e14f83fb8b0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/Programacao_web/laboratorio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0002_home_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/migrations/0002_home_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0003_alter_about_texto_alter_about_titulo_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/migrations/0003_alter_about_texto_alter_about_titulo_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0004_remove_licenciatura_image_licenciatura_texto2_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/migrations/0004_remove_licenciatura_image_licenciatura_texto2_and_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0005_licenciatura_texto3_licenciatura_texto4_and_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/migrations/0005_licenciatura_texto3_licenciatura_texto4_and_more.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/css/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/image/icons8-linkedin-50.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura/fisica.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura/fisica.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura/licenciatura.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura/licenciatura.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/web.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/web.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura/outras_habilitacoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura/outras_habilitacoes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +70,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/templates/portfolio/Programacao_web" />
       <recent name="$PROJECT_DIR$/portfolio/static/portfolio/image" />
       <recent name="$PROJECT_DIR$/portfolio/templates/portfolio/licenciatura" />
     </key>
@@ -119,7 +113,8 @@
       <workItem from="1654465780354" duration="3463000" />
       <workItem from="1654469372885" duration="4037000" />
       <workItem from="1654473811677" duration="2686000" />
-      <workItem from="1654476848877" duration="1235000" />
+      <workItem from="1654476848877" duration="4506000" />
+      <workItem from="1654481520178" duration="12323000" />
     </task>
     <task id="LOCAL-00001" summary="comiti do lab8 5junho">
       <created>1654425394802</created>
@@ -163,7 +158,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654468721194</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="comit do lab8 5junho">
+      <created>1654478224148</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654478224148</updated>
+    </task>
+    <task id="LOCAL-00008" summary="comit do lab8 5junho">
+      <created>1654485985241</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654485985241</updated>
+    </task>
+    <task id="LOCAL-00009" summary="comit do lab8 5junho">
+      <created>1654531053088</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654531053088</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
