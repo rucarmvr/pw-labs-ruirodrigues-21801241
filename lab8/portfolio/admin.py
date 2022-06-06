@@ -1,9 +1,11 @@
 from django.contrib import admin
-from .models import Projetos, Home, Home_Web, Web, Licenciatura, About, Educacao, Certificados, Interesses_hobbies
+
+from .models import Projetos, Home_projets, Home_Web, Web, About, Educacao, Certificados, Interesses_hobbies, \
+    Licenciatura
 
 # register
 
-admin.site.register(Home)
+admin.site.register(Home_projets)
 admin.site.register(Home_Web)
 admin.site.register(Projetos)
 admin.site.register(Web)

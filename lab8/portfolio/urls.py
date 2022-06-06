@@ -1,4 +1,5 @@
 from django.urls import path
+
 from . import views
 
 app_name = 'portfolio'
@@ -15,5 +16,7 @@ urlpatterns = [
     path('educacao', views.educacao_page_view, name='educacao'),
     path('certificados', views.certificados_page_view, name='certificados'),
     path('interesses_hobbies', views.interesses_hobbies_page_view, name='interesses_hobbies'),
+    path('fisica', views.fisica_page_view, name='fisica'),
+    path('outras_habilitacoes', views.outras_habilitacoes_page_view, name='outras_habilitacoes'),
 
 ]

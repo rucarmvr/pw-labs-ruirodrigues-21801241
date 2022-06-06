@@ -1,10 +1,11 @@
 from django.shortcuts import render
-from portfolio.models import Projetos, Home, Home_Web, Web, Licenciatura, About, Educacao, Certificados, \
-    Interesses_hobbies
+
+from portfolio.models import Projetos, Home_projets, Home_Web, Web, About, Educacao, Certificados, \
+    Interesses_hobbies, Licenciatura
 
 
 def home_page_view(request):
-    context = {'home': Home.objects.all(), 'home_web': Home_Web.objects.all()}
+    context = {'home': Home_projets.objects.all(), 'home_web': Home_Web.objects.all()}
     return render(request, 'portfolio/home.html', context)
 
 
@@ -29,7 +30,7 @@ def contact_page_view(request):
 
 def licenciatura_page_view(request):
     context = {'licenciatura': Licenciatura.objects.all()}
-    return render(request, 'portfolio/licenciatura.html', context)
+    return render(request, 'portfolio/licenciatura/licenciatura.html', context)
 
 
 def blog_page_view(request):
@@ -38,14 +39,24 @@ def blog_page_view(request):
 
 def educacao_page_view(request):
     context = {'educacao': Educacao.objects.all()}
-    return render(request, 'portfolio/educacao.html', context)
+    return render(request, 'portfolio/licenciatura/educacao.html', context)
 
 
 def certificados_page_view(request):
     context = {'certificados': Certificados.objects.all()}
-    return render(request, 'portfolio/certificados.html', context)
+    return render(request, 'portfolio/licenciatura/certificados.html', context)
 
 
 def interesses_hobbies_page_view(request):
     context = {'interesses_hobbies': Interesses_hobbies.objects.all()}
     return render(request, 'portfolio/interesses_hobbies.html', context)
+
+
+def fisica_page_view(request):
+    context = {'fisica': Interesses_hobbies.objects.all()}
+    return render(request, 'portfolio/licenciatura/fisica.html', context)
+
+
+def outras_habilitacoes_page_view(request):
+    context = {'fisica': Interesses_hobbies.objects.all()}
+    return render(request, 'portfolio/licenciatura/outras_habilitacoes.html', context)
